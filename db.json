@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nazar",
+      "email": "nazar@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Viktor",
+      "email": "viktor@example.com",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Oksana",
+      "email": "oksana@example.com",
+      "role": "editor"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Fake REST API",
+      "userId": 1,
+      "tags": ["intro", "rest", "api"],
+      "content": "Learn how to use a fake REST API with JSON Server."
+    },
+    {
+      "id": 2,
+      "title": "JSON Server Advanced Guide",
+      "userId": 2,
+      "tags": ["json", "server", "mock"],
+      "content": "Advanced techniques for simulating APIs using JSON Server."
+    },
+    {
+      "id": 3,
+      "title": "Frontend Basics with JavaScript",
+      "userId": 3,
+      "tags": ["javascript", "frontend", "programming"],
+      "content": "Introduction to JavaScript fundamentals for beginners."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "text": "Дуже корисна стаття, дякую!"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "userId": 3,
+      "text": "Цікаві поради, хочу спробувати!"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "userId": 1,
+      "text": "Добре пояснено основи JavaScript!"
+    }
+  ]
+}
